@@ -1,0 +1,8 @@
+# Shared dictionary shipped with the app (static file, no server logic).
+# Every link made with it needs the same file to open, so bump `version` whenever you change it.
+version = "2026-10"
+words = ["status", "active", "pending", "closed", "department", "Finance", "Planning", "Public Works", "permit", "application", "resident", "address", "priority"]
+corpus = """
+Work order created for the Public Works department. Priority: high. Status: pending review.
+Permit application received from a resident. Planning will review the site plan and contact the applicant.
+"""

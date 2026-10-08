@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FragmentDB</title>
+<style>
+:root{--bg:#f7f7f5;--fg:#1c1917;--muted:#6b6560;--card:#fff;--line:#e4e2df;--accent:#2563eb;--ok:#15803d;--warn:#b45309;--bad:#b91c1c}
+@media (prefers-color-scheme:dark){:root{--bg:#161514;--fg:#f2f1ef;--muted:#a29d97;--card:#211f1d;--line:#3a3734;--accent:#60a5fa;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui,sans-serif}
+main{max-width:900px;margin:0 auto;padding:20px 16px 48px}h1{font-size:20px;margin:0}h2{font-size:15px;margin:0 0 8px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:14px}
+textarea,input,select{font:inherit;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:6px 8px}
+textarea{width:100%;min-height:120px;font:12px/1.45 ui-monospace,monospace}
+button{font:inherit;padding:6px 12px;border-radius:7px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}button:disabled{opacity:.5}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}.muted{color:var(--muted);font-size:12px}
+.box{font:12px/1.45 ui-monospace,monospace;background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:8px;white-space:pre-wrap;word-break:break-all;max-height:240px;overflow:auto;margin:8px 0}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}.preview{display:block;max-width:100%;max-height:220px;margin-top:8px;border-radius:7px}
+</style></head><body><div id="root"></div><script type="module" src="./app.js"></script></body></html>
